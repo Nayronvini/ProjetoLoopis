@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Login</title>
-    
+
+    <link href="/ProjetoLoopis-estilo/style.css" rel="stylesheet" />
 </head>
+
 <body>
+    <header>
+        <nav class="cabecalho__menu">
+            <img src="/ProjetoLoopis-estilo/logo.png" alt="logo">
+            <a href="toDoList.html">Home</a>
+            <a href="index.html">Login</a>
+        </nav>
+    </header>    
     <div class="container">
-        <!-- Imagem de um caba hacker -->
-        <img src="hacker.webp" alt="Imagem de Hacker">
 
         <h2>Login</h2>
 
@@ -25,7 +32,7 @@
                 <input type="password" id="password" name="password" required placeholder="a senha aqui também">
             </div>
 
-            <input type="submit" value="Entrar">
+            <input type="submit" value="Entrar" id="login-btn">
         </form>
     </div>
 

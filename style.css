@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:     rgba(10, 0, 0, 0.959);
+    height: 5000px;
+}
+
+nav {
+    background-image: linear-gradient(to right, #8f0404cb 0%, #d20d0dd8 50%, #f43838cb 100%);
+    width: 100%;
+    position: static;
+    overflow: hidden;
+    margin: 0;
+}
+        
+
+nav img {
+    float: left;
+    display: block;
+    width: 100px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 25px;
+    float: left;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 40%;
+}
+
+nav a:hover {
+background-color: white;
+color: #8f0404cb;
+}
+
+h2 {
+    color: rgb(222, 220, 226);
+font-size: 50px;
+}
+
+div {
+    color: rgb(222, 220, 226);
+font-size:25px;
+}
+
+li {
+    list-style: none;
+    color: white;
+    list-style-position: inherit;
+    background-color:#550303cb ;
+    width: 20%; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(99, 1, 1); 
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    background-color:#8f0404cb;
+    border: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:#360101cb;
+    color:#ffffff ;
+}
+
+label {
+    background-color:#550303cb ;
+    width: 20%; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(99, 1, 1); 
+    display: block;
+    margin-bottom: 10px;
+}
+#login-btn {
+    font-size: 20px;
+    color: white;
+    background-color:#8f0404cb;
+    border: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#username, #password, #todoInput {
+    width: 150px;
+    height: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
