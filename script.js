@@ -43,6 +43,8 @@ function addToDo(){
     // Adiciona a nova tarefa a ul e limpa caixa de texto
     toDoList.appendChild(li);
     toDoInput.value = "";
+
+    saveToLocalStorage();
 }
 
 //Função para excluir um elemento
