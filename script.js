@@ -132,3 +132,9 @@ window.onload = function() {
 
 //Evento para adicionar o elemento ao clicar no botão "adicionar"
 addToDoButton.addEventListener("click", addToDo);
+//Evento para adicionar o elemento ao pressionar "Enter"
+document.getElementById("todoInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        document.getElementById("addTodoBtn").click();
+    }
+});
